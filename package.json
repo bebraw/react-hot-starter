@@ -1,0 +1,26 @@
+{
+  "name": "react-hot-starter",
+  "version": "0.1.0",
+  "description": "Hot starting point for React apps",
+  "scripts": {
+    "start": "cd src && node ../node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot"
+  },
+  "directories": {
+    "src": "src"
+  },
+  "dependencies": {
+    "jsx-loader": "0.11.0",
+    "react": "0.11.1",
+    "react-hot-loader": "^0.5.0",
+    "webpack": "~1.4.5",
+    "webpack-dev-server": "~1.4.7"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "hmr",
+    "livereload"
+  ],
+  "author": "Juho Vepsalainen <bebraw@gmail.com>",
+  "license": "MIT"
+}
