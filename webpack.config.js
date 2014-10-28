@@ -5,14 +5,14 @@ var webpack = require('webpack');
 
 
 module.exports = {
-    entry: ['webpack/hot/dev-server', './app'],
+    entry: ['webpack/hot/dev-server', './src/app'],
     devtool: 'source-map',
     output: {
         path: path.join(__dirname, 'output'),
         filename: 'bundle.js'
     },
     resolveLoader: {
-        modulesDirectories: ['..', 'node_modules']
+        modulesDirectories: ['src', 'node_modules']
     },
     resolve: {
         extensions: ['', '.jsx', '.js']

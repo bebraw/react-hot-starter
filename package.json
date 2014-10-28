@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Hot starting point for React apps",
   "scripts": {
-    "start": "cd src && node ../node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot"
   },
   "directories": {
     "src": "src"
