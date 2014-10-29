@@ -1,6 +1,6 @@
 {
   "name": "react-hot-starter",
-  "version": "0.2.0",
+  "version": "0.2.5",
   "description": "Hot starting point for React apps",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot"
